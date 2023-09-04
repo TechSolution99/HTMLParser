@@ -1,0 +1,36 @@
+[
+  {
+    "tag": "div",
+    "text": "Hello, friends",
+    "style": {
+      "background-color": "yellow",
+      "font-size": "14px"
+    },
+    "id": "first-div",
+    "children": [
+      {
+        "tag": "p",
+        "text": "Lorem ipsum dolor sit",
+        "class": "para",
+        "style": {
+          "font-faimly": "monospace",
+          "font-size": "11px"
+        }
+      },
+      {
+        "tag": "footer",
+        "style": {
+          "width": "auto",
+          "height": "100px",
+          "color": "blue"
+        },
+        "children": [
+          {
+            "tag": "span",
+            "text": "This is the end"
+          }
+        ]
+      }
+    ]
+  }
+]

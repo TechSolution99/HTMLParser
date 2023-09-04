@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="index.js" defer></script>
+  <style>
+    textarea {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="input_text"></textarea>
+  <textarea id="output_text"></textarea>
+</body>
+<script type="text/javascript">
+  document.getElementById('input_text').addEventListener('input', (e) => {
+    document.getElementById('output_text').innerHTML = htmlStringToObject(e.target.value)
+  })
+</script>
+</html>
